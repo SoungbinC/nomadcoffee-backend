@@ -1,6 +1,5 @@
 import { PrismaClient } from "@prisma/client"
-import { withAccelerate } from "@prisma/extension-accelerate"
 
-const clinet = new PrismaClient().$extends(withAccelerate())
+const client = new PrismaClient()
 
-export default clinet
+export default client

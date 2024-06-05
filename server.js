@@ -7,4 +7,10 @@ const server = new ApolloServer({
     schema,
 })
 
-server.listen().then(() => console.log("Server is running port 4000"))
+const PORT = process.env.PORT
+
+server
+    .listen()
+    .then(() =>
+        console.log(`🚀Server is running on http://localhost:${PORT} ✅`)
+    )
