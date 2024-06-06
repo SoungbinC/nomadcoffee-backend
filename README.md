@@ -4,15 +4,17 @@
 
 -   [x] Day 1: Set up the project
 -   [x] Day 2: Create account
+-   [x] Day 3: seeProfile, editProfile, login
 
-# Day 2: Create account
+# Day 3: To-do
 
--   [x] Create schema User model
--   [x] Create createAccount resolver
--   [x] Create hashPassword using bycrypt
+-   [x] seeProfile
+-   [x] editProfile
 
-```
-    npm install bcrypt
-```
+protect resolver for editProfile. If the user is not loggined, the user can't edit the profile.
 
--   [x] Create account verification
+-   [x] login
+
+'''
+npm install jsonwebtoken
+'''
