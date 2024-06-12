@@ -5,16 +5,17 @@
 -   [x] Day 1: Set up the project
 -   [x] Day 2: Create account
 -   [x] Day 3: seeProfile, editProfile, login
+-   [ ] Day 4: Add function to follow or unfollow users
 
-# Day 3: To-do
+# Day 3: Follow or unfollow users
 
--   [x] seeProfile
--   [x] editProfile
+## 1. Add the follow and following relationship in the User model
 
-protect resolver for editProfile. If the user is not loggined, the user can't edit the profile.
+## 2. Add the follow and unfollow mutation in resolvers
 
--   [x] login
-
-'''
-npm install jsonwebtoken
-'''
+-   [x] Follow
+-   [x] Unfollow
+-   [x] Seefollowing
+-   [x] Seefollowers
+-   [x] SeeFollowing
+-   [x] SearchUsers
