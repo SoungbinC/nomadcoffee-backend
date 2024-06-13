@@ -7,12 +7,18 @@
 -   [x] Day 3: seeProfile, editProfile, login
 -   [x] Day 4: Add function to follow or unfollow users
 
-# Day 5: Create Coffee Shop
+# Day 6: Deploy backend
 
--   [x] Create Coffee Shop model
+-   [ ] install babel/cli
 
--   [x] See Coffee Shops
--   [x] See Coffee Shop
--   [x] See Categories
--   [x] See Category
--   [x] Edit Coffee Shop
+```
+npm install @babel/cli --dev-only
+```
+
+-   [x] build src
+
+```
+npm run build
+```
+
+-   [ ] Deploy backend to Heroku
